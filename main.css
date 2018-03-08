@@ -1,4 +1,9 @@
-
+#chat-icon {
+    position: fixed;
+    right: 50px;
+    top: 550px;
+    z-index: 1;
+}
 
 #hero {
     background-image: url(smiley.jpg);
@@ -157,6 +162,7 @@ nav {
 #testimonial {
     background: #eeeeee;
     position: relative;
+    padding-bottom: 1px;
 }
 
 #big-testimonial {
@@ -191,7 +197,6 @@ nav {
     text-align: center;
     vertical-align: middle;
     padding-top: 100px;
-    /* line-height: 350px; */
 }
 
 #form input[type="name"] {
@@ -244,12 +249,27 @@ nav {
     padding: 0;
     margin-right: -50px;
     margin-left: 50px;
+    margin-top: 50px;
 }
 
 #first-footer-div img {
     width: 60px;
     height: 60px;
-    margin-top: 70px;
+    margin-top: 40px;
+    float: left;
+}
+
+#first-footer-div p {
+    font-size: 18px;
+    color: #555555;
+    overflow: auto;
+    margin-top: 40px;
+    padding-left: 20px;
+}
+
+#first-footer-div a {
+    text-decoration: none;
+    color: rgb(223, 183, 6);
 }
 
 
@@ -266,8 +286,6 @@ nav {
     margin-left: -30px;
 }
 
-
-
 .footer-header {
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
@@ -279,16 +297,6 @@ nav {
 
 #fifth-footer-div .footer-links {
     margin-top: -13px;
-}
-
-#first-footer-div p {
-    font-size: 18px;
-    color: #555555;
-}
-
-#first-footer-div a {
-    text-decoration: none;
-    color: rgb(223, 183, 6);
 }
 
 #final-words {
